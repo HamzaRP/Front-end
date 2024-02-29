@@ -1,0 +1,36 @@
+body {
+ background-color: rgb(4, 0, 8);
+
+ color: rgb(246, 247, 250);
+
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ margin: 20px;
+
+ text-align: center;
+
+}
+
+header{
+    background-color: rgb(92, 92, 92);
+    color: rgb(255, 255, 255);
+
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  padding: 5;
+}
+
+nav a{
+    text-decoration: white;
+    color: rgb(42, 66, 201);
+
+}
+
+nav a:hover{
+    color: rgb(173, 46, 199);
+    text-decoration: aliceblue;
+    cursor:crosshair;
+}
